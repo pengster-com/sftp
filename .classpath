@@ -27,5 +27,10 @@
 	<classpathentry kind="lib" path="F:/usr/lib/jsch/1.52/jsch-0.1.52.jar"/>
 	<classpathentry kind="lib" path="F:/usr/lib/commons-net-3.3/commons-net-3.3.jar"/>
 	<classpathentry kind="lib" path="F:/usr/lib/commons-net-3.3/commons-net-3.3-sources.jar"/>
+	<classpathentry kind="lib" path="F:/usr/lib/jcabi/jcabi-ssh-1.5.jar"/>
+	<classpathentry kind="lib" path="F:/usr/lib/commons-lang3-3.4/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="F:/usr/lib/commons-lang3-3.4/commons-lang3-3.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/usr/lib/commons-io-2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="F:/usr/lib/commons-io-2.4/commons-io-2.4-javadoc.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

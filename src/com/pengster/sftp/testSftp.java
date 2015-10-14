@@ -35,7 +35,7 @@ public class testSftp extends BaseTester
         Boolean result;
         
         PingTester pingTest = new PingTester();
-        out("Ping test");
+        out("\nPing test");
         result = pingTest.ping(p.getHost());
         testResults.put("Ping Test", result);
         out("Ping test...."+result);
@@ -51,6 +51,12 @@ public class testSftp extends BaseTester
         result = jschTest.auth(p);
         testResults.put("SSH Auth test", result);
         out("SSH Auth test...."+result);
+        
+        jcabiTester jcabiTest = new jcabiTester();
+        out("Jcabi test....");
+        result = jcabiTest.connect(p);
+        testResults.put("Jcabi test", result);
+        out("Jcabi test...."+result);
         
         AbstractSftpTester osftp =  new testOpenSftp();
         out("Connect test....");
